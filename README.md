@@ -14,8 +14,8 @@ Installation
 
 - Or you may clone the repo and add the following lines to your `bashrc`
     ```bash
-    if [ -f ~/baksho-theme.sh ]; then
-      source ~/baksho-theme.sh
+    if [ -f ~/.baksho-theme.sh ]; then
+      source ~/.baksho-theme.sh
     fi
     ```
     Make sure to copy or move the `baksho` script to your `$HOME`.
