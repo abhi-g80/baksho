@@ -74,6 +74,6 @@ __set_prompt() {
 # evaluate return status and print that first
 PROMPT_COMMAND=__return_status
 
-PROMPT="\$(__abbreviated_pwd)\$(__git_status)\$(__set_prompt)"
+PROMPT="\$(__abbreviated_pwd)\$(__git_status)\$([ \j -gt 0 ] && echo -n ↓\j)\$(__set_prompt)"
 
 PS1="$PROMPT"
