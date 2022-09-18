@@ -20,6 +20,8 @@ Installation
     ```
     Make sure to copy or move the `baksho` script to your `$HOME`.
 
+- To update, you can curl the theme file or run the install script with `-u` flag.
+
 Credits
 -------
 This theme is heavily inspired by the [Common](https://github.com/jackharrisonsherlock/common) theme for ZSH shell.
